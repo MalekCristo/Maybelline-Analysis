@@ -14,7 +14,7 @@
 </ol>
 
 
-<H2  style="font-family:verdana;"> PART 1: Data Collecting & Web Scraping </H2>
+<H2  style="font-family:verdana;"> PART 1: Data Collection & Web Scraping </H2>
 <h3  style="font-family:verdana;"> <u>The use of Selenium as The Most Suitable Library</u></h3>
 
 <p  style="font-family:verdana;"> We used Selenium as our web scraping library because we needed to interact dynamically with several websites: as scrolling down the page, signing up to amazon website, as well as clicking on next buttons etc...</p>
