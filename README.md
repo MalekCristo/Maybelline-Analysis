@@ -9,7 +9,7 @@
 <ol style="font-family:verdana;">
         <li> Explore and Analyze Maybelline's Product As a Whole.</li>
         <li> Analyze the Brand Image and Get an Overall Idea About Customers' Satisfaction using <b>Sentiment Analysis Tools.</b></li>
-        <li> Use Sentiment Analysis Tools to Compare Maybelline With Other Competitors Sold On The Amazon Website.</li>
+        <li> Use Sentiment Analysis Tools to Compare Maybelline With Other Competitors Present On The Amazon Website.</li>
         <li> Identify Product Features That Customers are Searching for and Discussing using <b>Topic Modeling Techniques: LDA(Latent Dirichlet Allocation).</b></li>
 </ol>
 
