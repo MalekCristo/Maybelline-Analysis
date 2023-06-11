@@ -15,7 +15,8 @@
 
 
 <H2  style="font-family:verdana;"> PART 1: Data Collection & Web Scraping </H2>
-<h3  style="font-family:verdana;"> <u>The use of Selenium as The Most Suitable Library</u></h3>
+(Web Sraping.ipynb)
+<h5  style="font-family:verdana;"> <u>The use of Selenium as The Most Suitable Library</u></h5>
 
 <p  style="font-family:verdana;"> We used Selenium as our web scraping library because we needed to interact dynamically with several webpages: as scrolling down the page, signing up to amazon website, as well as clicking on next buttons etc...</p>
 <p  style="font-family:verdana;">We identify these brands to scrape from data : </p>
@@ -28,11 +29,27 @@
     <li>Kiss </li>
      
 </ul>
+<p> We scraped a total of 647 products and 231737 reviews.<br>
+For each product these features are scraped: 
+<ul style="font-family:verdana;">
+    <li>Product Name</li>
+    <li>Rating</li>
+    <li>Num_of_ratings</li>
+    <li>Price</li>
+</ul>
 
+For each review we got:
+<ul style="font-family:verdana;">
+    <li>Product Name</li>
+    <li>Review text</li>
+    <li>Review Score</li>
+</ul>
+</p>
 
 <H2  style="font-family:verdana;"> PART 2: Data Cleaning & Preprocessing </H2>
-<p> We performed data cleaning and preprocessing on numerical and text data.
-        <br> Steps are detailed in the notebook.</p>
+<p> We performed data cleaning and preprocessing on numerical and text data.</p>
+
+
 <H2  style="font-family:verdana;"> PART 3: Sentiment Analysis </H2>
 <p>We choose the dictionary based sentiment analysis with the use of opinion dictionary. This method is easy to implement and has proven efficiency.
 <br> 
