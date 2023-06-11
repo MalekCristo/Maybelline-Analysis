@@ -32,7 +32,7 @@
 <H2  style="font-family:verdana;"> PART 2: Data Cleaning & Preprocessing </H2>
 
 <H2  style="font-family:verdana;"> PART 3: Sentiment Analysis </H2>
-<p>We choose the dictionary based sentiment analysis with the use of opinion dictionary. This method is easy to implement and has proven efficiency</p>
+<p>We choose the dictionary based sentiment analysis with the use of opinion dictionary. This method is easy to implement and has proven efficiency.</p>
 
 <H2  style="font-family:verdana;"> PART 4: Topic Modeling: LDA </H2>
 <H2> Limitations</H2>
