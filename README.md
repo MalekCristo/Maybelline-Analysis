@@ -35,6 +35,39 @@
 <p>We choose the dictionary based sentiment analysis with the use of opinion dictionary. This method is easy to implement and has proven efficiency.</p>
 
 <H2  style="font-family:verdana;"> PART 4: Topic Modeling: LDA </H2>
+
+<p>LDA is a widely used topic model in textual analysis. It supposes that a document is composed by a given
+number of topics and each word in a document is linked to one of the document’s topics. In our study,
+the documents are represented by articles’ corpus. The term “latent” in LDA, as provided by the Oxford
+Dictionary9
+, signifies “existing, but not yet very noticeable, active, or well developed”. This indicates that
+LDA topics are hidden topics and yet to be discovered by the model. This is a characteristic of the model
+being an unsupervised machine learning technique first proposed by Blei (2003). In other words, the model is responsible to detect the heterogeneity in topics i.e. we are not required to specify lexicons
+describing each topic as opposed to dictionary methods. LDA is based on the Dirichlet distribution which
+is found in the 1800s by a German mathematician named Johann Peter Gustav Lejeune Dirichlet. In order
+to generate these topics LDA assumes some rules10:
+■ Articles dealing with the similar topics use similar words.
+■ Topics are identified as a group of words that are frequently employed together.
+■ Articles are a distribution over topics meaning that an article can contain more than one topic.
+As an input, it takes the articles’ text, the number of unique words appearing across all articles, and the
+number of topics that we are looking for. In our case, we ended up with 9185 documents and 10880 unique
+words across all the articles.
+LDA provides two outputs. As a first output, a set of K topics is generated as a probability distribution
+of unique words, describing how frequently a word appears in a topic. The number of topics K is set
+by the user depending on their needs and intuition. To do so, we examined the coherence scores, an
+accuracy metric for LDA model, for different values of K. We could determine that a number of 5 topics
+with an accuracy of Cv = 0.54 is the most suitable number for our case, i.e., the model’s results were the
+most consistent and interpretable. Then it is our duty to label each topic based on the most frequent
+words occurring in it. As a second output, LDA expresses each article as a probability-weighted average
+of topics. The weights are called topic shares. These shares represent each topic’s contribution to an
+article or the intensity of a topic’s appearance in a given article. Given that articles are timestamped,
+summing the shares of each topic across articles published on the same day will create a time series for
+that specific topic. In other words, the cumulative share per day refers to the news coverage of each
+topic and the amount by which the topic is discussed during that same day. Following the reference
+papers(Renato Faccini (2022))(Engle et al. (2019))(Leanne (2021)), these findings will serve as climate risk
+factors. Figure 14 is a good representation of LDA model.
+
+</p>
 <H2> Limitations</H2>
 <ul>
     <li> Be more inclusive about other competitors present on the same website. </li>
