@@ -1,6 +1,6 @@
 # Maybelline-Analysis
 
-<img src="Maybelline-Logo.png" width="250">
+<img src="Maybelline-Emblem.png" width="250">
 <H1 style="color:rgb(255, 28, 71);text-align:center;font-family:verdana;"> <center> Maybelline New York Analysis </center></H1>
 
 
