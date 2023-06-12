@@ -66,7 +66,11 @@ For each review we got:
 
 <img style="width:70%" src = "dist.PNG">
 <br> 
+
+
 Using this pie chart we illustrate the brands' distribution in our data, showing that Maybelline has the highest share i.e it is the most present brand on the website.
+
+<br> 
 <br> 
 <img style="width:70%" src = "cat.PNG">
 <br> 
