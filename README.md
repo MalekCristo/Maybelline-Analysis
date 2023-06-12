@@ -62,6 +62,13 @@ For each review we got:
        
 </ol>
 
+<h4>EDA:</h4>
+
+<img src = "dis.PNG">
+<img src = "cat.PNG">
+<img src = "boxplot.png">
+<img src = "téléchargement.png">
+
 <H2  style="font-family:verdana;"> PART 3: Sentiment Analysis </H2>
 <p>We choose the dictionary based sentiment analysis with the use of opinion dictionary. This method is easy to implement and has proven efficiency.
 <br> 
