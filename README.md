@@ -49,6 +49,18 @@ For each review we got:
 <H2  style="font-family:verdana;"> PART 2: Data Cleaning & Preprocessing </H2>
 <p> We performed data cleaning and preprocessing on numerical and text data.</p>
 
+<ol style="font-family:verdana;">
+    <li>As we have enough data we droped null values and duplicates.</li>
+    <li>Got the brands' names and categories from product names.</li>
+    <li>Turned numerical values present as strings into floats.</li>
+    <li>Removed reviews in other than english language, the language was detected using langid library.</li>
+    <li>Performed tokenization.</li>   
+    <li>Lower Cased reviews' text, removed punctuations,HTML tags, signs, URLs, digits, and new lines.</li>
+    <li>Removd stopwords pulled from nltk library.</li>
+    <li>Built the bigram and trigram models.</li>
+    <li>Performed lemmatization and not stemmming because words lost much of its meaning.</li>    
+       
+</ol>
 
 <H2  style="font-family:verdana;"> PART 3: Sentiment Analysis </H2>
 <p>We choose the dictionary based sentiment analysis with the use of opinion dictionary. This method is easy to implement and has proven efficiency.
