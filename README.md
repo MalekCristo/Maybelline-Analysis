@@ -65,8 +65,12 @@ For each review we got:
 <h4>EDA:</h4>
 
 <img style="width:70%" src = "dist.PNG">
+Using this pie chart we illustrate the brands' distribution in our data, showing that Maybelline has the highest share i.e it is the most present brand on the website.
 <img style="width:70%" src = "cat.PNG">
+This pie chart sheds light on the categories distribution in our sample, showing that lip products are the most present on the website.
 <img style="width:70%" src = "boxplot.png">
+This boxplot is designed to plot the price range of each brand.
+All brands deliver products on the same range. Almost all products are sold at a price range under $100. <br> We can confirm that the brands constituting our sample can be considered as competitors.
 <img style="width:70%" src = "téléchargement.png">
 
 <H2  style="font-family:verdana;"> PART 3: Sentiment Analysis </H2>
