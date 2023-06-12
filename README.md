@@ -64,7 +64,7 @@ For each review we got:
 
 <h4>EDA:</h4>
 
-<img src = "dis.PNG">
+<img src = "dist.PNG">
 <img src = "cat.PNG">
 <img src = "boxplot.png">
 <img src = "téléchargement.png">
