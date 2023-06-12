@@ -70,19 +70,30 @@ Using this pie chart we illustrate the brands' distribution in our data, showing
 <br> 
 <img style="width:70%" src = "cat.PNG">
 <br> 
+<br> 
+
 This pie chart sheds light on the categories distribution in our sample, showing that lip products are the most present on the website.
 <br> 
+<br> 
+
 <img style="width:70%" src = "boxplot.png">
 <br> 
+<br> 
+
 This boxplot is designed to plot the price range of each brand.
 All brands deliver products on the same range. Almost all products are sold at a price range under $100. <br> We can confirm that the brands constituting our sample can be considered as competitors.
+
+<br> 
 <br> 
 <img style="width:70%" src = "téléchargement.png">
 <br> 
+<br> 
+
 Plotting average product ratings per brand using histogram shows that all brands have comparable ratings. This is why we would like to proceed with Sentiment Analysis.
 <H2  style="font-family:verdana;"> PART 3: Sentiment Analysis </H2>
 <p>We choose the dictionary based sentiment analysis with the use of opinion dictionary. This method is easy to implement and has proven efficiency.
 <br> 
+       
 We could classify reviews as positive, neutral, or negative.</p>
 
 <H2  style="font-family:verdana;"> PART 4: Topic Modeling: LDA </H2>
